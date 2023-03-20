@@ -6,6 +6,7 @@ import { useFormik } from "formik";
 import { profileValidation } from "../helper/validate";
 
 import styles from "../styles/Username.module.css";
+import extend from "../styles/Extend.module.css";
 
 export default function Profile() {
   const formik = useFormik({
